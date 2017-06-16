@@ -51,7 +51,43 @@ else{
 
 var force = (mass*acceleration)
 
+print("Force =\(force)")
+
+print("\(distance) is the distance traveled")
+
+if(lost == true && expensive == true)
+{
+    print("I am really sorry! I will get the manager.")
+}
+else if(lost == true && expensive == false)
+{
+    print("Here is a coupon for 10% off.")
+}
 
 
+switch choice {
+case 1:
+    print("You chose 1")
+case 2:
+    print("You chose 2")
+case 3:
+    print("You chose 3")
+default:
+    print("You made an unknown choice.")
+}
 
+print("\(integral) is an integral")
+
+var i:Int
+for i in 5...10{
+    print("i = \(i)")
+}
+
+var age = 0
+while age < 6{
+    print("Age = \(age)")
+    age = age + 1
+}
+
+print("\(greeting) \(name)")
 
